@@ -30,10 +30,8 @@ int main()
         }
     }
     std::cout << std::endl
-              << "Печать множества некратных чисел"
-              << std::endl
-              << s
-              << std::endl
+              << "Печать множества некратных чисел" << std::endl
+              << s << std::endl
               << "Печать простых чисел"
               << std::endl;
     count = 0;
@@ -49,12 +47,7 @@ int main()
         }
     }
     std::cout << std::endl
-              << " В первых "
-              << n
-              << " числах "
-              << count
-              << " простых"
-              << std::endl;
+              << " В первых " << n << " числах " << count << " простых" << std::endl;
 
     return 0;
 }
