@@ -5,7 +5,7 @@
 class TJobStream
 {
 public:
-    TJobStream() = default;
+    TJobStream(double Chance) noexcept;
     ~TJobStream() = default;
 
     std::optional<int> GetJob() const noexcept;

@@ -1,6 +1,11 @@
 #include "TProc.hpp"
 #include <cstdlib>
 
+TProc::TProc(double Chance) noexcept
+    : chance(Chance)
+{
+}
+
 int TProc::RunNewJob(int id) noexcept
 {
     int old = Id;

@@ -3,7 +3,7 @@
 class TProc
 {
 public:
-    TProc() = default;
+    TProc(double Chance) noexcept;
     ~TProc() = default;
 
     int RunNewJob(int id) noexcept;
